@@ -36,8 +36,10 @@ dependencies:
   cupertino_icons: ^1.0.8
   google_fonts: ^6.2.1
   lottie: ^3.3.1
-
-
+  flutter_thingspeak: ^1.2.1
+  http: ^1.4.0
+  flutter_local_notifications: ^19.4.0
+  
 dev_dependencies:
   flutter_test:
     sdk: flutter

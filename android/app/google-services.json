@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "588616393455",
+    "project_id": "airindex-ab729",
+    "storage_bucket": "airindex-ab729.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:588616393455:android:6d2510986a742c5562b11a",
+        "android_client_info": {
+          "package_name": "com.example.iotproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWe6R0GywclFEZVsdA_g4coPmGgigEeo8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
