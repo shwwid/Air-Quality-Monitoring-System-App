@@ -39,6 +39,7 @@ dependencies:
   flutter_thingspeak: ^1.2.1
   http: ^1.4.0
   flutter_local_notifications: ^19.4.0
+  flutter_launcher_icons: ^0.14.4
   
 dev_dependencies:
   flutter_test:
@@ -53,6 +54,11 @@ dev_dependencies:
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: assets/app_logo.jpg
 
 # The following section is specific to Flutter packages.
 flutter:
@@ -94,3 +100,5 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+
+
