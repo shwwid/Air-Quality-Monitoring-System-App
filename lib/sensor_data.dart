@@ -3,16 +3,16 @@ class SensorData {
   final double humidity;
   final double pressure;
   final double nh3;
-  final double co;
-  final double no2;
+  final double lpg;
+  final double ch4;
 
   SensorData({
     required this.temperature,
     required this.humidity,
     required this.pressure,
     required this.nh3,
-    required this.co,
-    required this.no2,
+    required this.lpg,
+    required this.ch4,
   });
 
   factory SensorData.fromJson(Map<String, dynamic> json) {
@@ -22,8 +22,8 @@ class SensorData {
       humidity: double.parse(feeds['field2'] ?? '0'),
       pressure: double.parse(feeds['field3'] ?? '0'),
       nh3: double.parse(feeds['field4'] ?? '0'),
-      co: double.parse(feeds['field5'] ?? '0'),
-      no2: double.parse(feeds['field6'] ?? '0'),
+      lpg: double.parse(feeds['field5'] ?? '0'),
+      ch4: double.parse(feeds['field6'] ?? '0'),
     );
   }
 }

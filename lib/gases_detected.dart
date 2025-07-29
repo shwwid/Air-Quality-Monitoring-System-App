@@ -59,18 +59,18 @@ class _GasesDetectedState extends State<GasesDetected> {
         setState(() {
           _sensorData = data;
           _sensorData = data;
-          const double coThreshold = 10;
-          const double nh3Threshold = 10.0;
-          const double n02Threshold = 15.0;
+          const double nh3Threshold = 10;
+          const double lpgThreshold = 10.0;
+          const double ch4Threshold = 15.0;
 
-          if (_sensorData!.co > coThreshold) {
-            _showGasAlertNotification("CO", _sensorData!.co);
-          }
           if (_sensorData!.nh3 > nh3Threshold) {
             _showGasAlertNotification("NH₃", _sensorData!.nh3);
           }
-          if (_sensorData!.no2 > n02Threshold) {
-            _showGasAlertNotification("NO₂", _sensorData!.no2);
+          if (_sensorData!.lpg > lpgThreshold) {
+            _showGasAlertNotification("lpg", _sensorData!.lpg);
+          }
+          if (_sensorData!.ch4 > ch4Threshold) {
+            _showGasAlertNotification("CH₄", _sensorData!.ch4);
           }
           _loading = false;
         });
@@ -180,15 +180,19 @@ class _GasesDetectedState extends State<GasesDetected> {
                               ),
                               const SizedBox(height: 16),
                               _gasSlider(
-                                'CO',
-                                'Carbon Monoxide',
-                                _sensorData!.co,
+                                'NH₃',
+                                'Ammonia',
+                                _sensorData!.nh3,
                               ),
-                              _gasSlider('NH₃', 'Ammonia', _sensorData!.nh3),
                               _gasSlider(
-                                'NO₂',
-                                'Nitrogen Dioxide',
-                                _sensorData!.no2,
+                                'LPG',
+                                'Liquified Petroleum Gas',
+                                _sensorData!.lpg,
+                              ),
+                              _gasSlider(
+                                'CH₄',
+                                'Methane',
+                                _sensorData!.ch4,
                               ),
                               // Add more gases below if needed
                               //_gasSlider('CH₄', 'Methane', _sensorData!.ch4),
