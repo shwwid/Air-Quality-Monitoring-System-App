@@ -1,6 +1,6 @@
-# iotproject
+# BreatheWell
 
-A new Flutter project.
+An IOT Project that monitors Air Quality and helps users to notify, analyze different gases, temperature and humidity. 
 
 ## Getting Started
 
