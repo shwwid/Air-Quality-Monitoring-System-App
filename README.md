@@ -1,6 +1,6 @@
 # BreatheWell
 
-An IOT Project that monitors Air Quality and helps users to notify, analyze different gases, temperature and humidity. 
+An IOT Project that monitors Air Quality and helps users to notify, analyze different gases, temperature and humidity to stay healthy. 
 
 # Start Page
 <img width="1152" height="2525" alt="Main" src="https://github.com/user-attachments/assets/580b1d56-3d5c-457e-a777-09a3c809da4e" />
