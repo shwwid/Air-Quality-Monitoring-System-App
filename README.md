@@ -10,10 +10,11 @@ An IOT Project that monitors Air Quality and helps users to notify, analyze diff
 <img width="1152" height="2525" alt="Main" src="https://github.com/user-attachments/assets/580b1d56-3d5c-457e-a777-09a3c809da4e" />
 
 
-# Notification 
+# Alert Notification 
 <img width="1152" height="2525" alt="Notification" src="https://github.com/user-attachments/assets/2809b336-01c4-4b9d-8899-9845b7eca9aa" />
-![WhatsApp Image 2025-08-08 at 02 48 36_bdbe6069](https://github.com/user-attachments/assets/2e4ff0d5-eff6-425d-8139-1f50bf1015ce)
 
+# Safe Notification
+![WhatsApp Image 2025-08-08 at 02 48 36_a5331f1f](https://github.com/user-attachments/assets/c787e65d-91fd-47a0-9970-8ed82cb37576)
 
 # Gases Page
 <img width="1152" height="2525" alt="Various_Gases" src="https://github.com/user-attachments/assets/cf09b218-915d-4726-86d6-bdd52bbaf2e5" />
